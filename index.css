@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    padding: 8px 5px;
+    
+}
+header .logo{
+    height: 40px;
+    width: 127px;
+}
+.user-avatar{
+    border-radius: 25px;
+    display: block;
+    padding: 3px;
+    height: 34px;
+    width: 34px;
+}
+.container{
+    display: flex;
+    justify-content: start;
+    padding-top: 20px;
+    padding-left: 8px;
+}
+
+.container .user-profile{
+    width: 32px;
+    height: 35px;
+    border-radius: 25px;
+}
+.name-location{
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+.container .name{
+    color: #000000;
+    font-weight: bold;
+    font-size: 13;
+    padding-top: 30px;
+}
+.name-location .location{
+    font-size: 12px;
+}
+.post .post-img{
+    width: 100%;
+}
+.post .icons{
+    height: 20px;
+    margin: 5px;
+    
+}
+.icons:hover {
+  transform: scale(1.2); /* Increase size on hover */
+  opacity: 0.8; /* Make slightly transparent on hover */
+  cursor: pointer;
+  color: red;
+}
+.likes{
+    padding: 5px;
+    font-weight: bold;
+}
+.user-caption{
+    padding: 5px;
+}
+.user{
+    font-weight: bold;
+    padding-right: 5px;
+}
